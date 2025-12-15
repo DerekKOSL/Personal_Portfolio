@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    
+}
+
+#mainFlexBox {
+    display: flex;
+    flex-flow: column nowrap;
+    /* background-color: aquamarine; */
+    height: 100vh;
+}
+
+#mainNavBox {
+    flex-basis: 10%;
+    display: flex;
+}
+
+#mainNavBox nav{
+    align-items: center;
+    display: flex;
+
+}
+
+#mainNavBox nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+#mainNavBox nav ul li a{
+  padding: 10px 15px; /* Add space around the text */
+  font-size: 2rem;
+  color: grey;
+  text-decoration: none;
+    font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  transition: background-color 0.5s ease-out;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#mainNavBox nav ul li a:hover{
+ 
+  color: white
+
+}
+
+
+
+#mainBox {
+
+    flex-basis: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imageBox {
+    
+}
+#mainBox h1{
+    text-align: center;
+    color: black;
+        font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  transition: background-color 0.5s ease-out;
+  font-style: normal;
+  font-size: 4rem;
+
+}
+
+
+#mainFooterBox {
+    /* background-color: blue; */
+       flex-basis: 10%;
+       
+}
+
