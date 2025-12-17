@@ -108,10 +108,44 @@ body {
 
 #infoBox {
     /* background-color: aqua; */
+     border-right: 1px solid rgba(197, 197, 197, 0.154);
     flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#infoTextBox {
+    /* background-color: azure; */
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#textContainer{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1rem 1rem 0 1rem;
+    /* background-color: blueviolet; */
+}
+
+#textContainer p {
+        font-size: 1rem;
+    color: white;
+    font-family:sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 0 .2rem 0;
+}
+
+#textFillerDiv {
+    /* background-color: aqua; */
+    flex-basis: 50%;
+    margin: 0 1rem 1rem 1rem;
 }
 
 #galleryBox {
-    background-color: beige;
+    /* background-color: beige; */
     flex-basis: 50%;
 }
