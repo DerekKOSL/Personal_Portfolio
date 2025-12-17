@@ -72,7 +72,7 @@ body {
 }
 
 #nameLink a:hover{
-  color: rgb(237, 10, 237)
+  color: rgb(255, 0, 255)
 }
 
 #filler {
@@ -114,35 +114,25 @@ body {
     flex-direction: column;
 }
 
-#infoTextBox {
-    /* background-color: azure; */
-    flex-basis: 20%;
-    display: flex;
-    flex-direction: column;
+.fillerInfo {
+    flex-basis: 25%;
+    /* background-color: brown; */
 }
 
-#textContainer{
+#infoTextBox {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    margin: 1rem 1rem 0 1rem;
+    align-items: center;
     /* background-color: blueviolet; */
 }
 
-#textContainer p {
-        font-size: 1rem;
+#infoTextBox p{
+    font-size: 2rem;
     color: white;
     font-family:sans-serif;
     font-weight: 500;
-    margin: 0;
-    padding: 0 0 .2rem 0;
-}
 
-#textFillerDiv {
-    /* background-color: aqua; */
-    flex-basis: 50%;
-    margin: 0 1rem 1rem 1rem;
 }
 
 #galleryBox {
