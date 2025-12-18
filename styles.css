@@ -152,22 +152,56 @@ body {
 #img1Container {
     /* background-color: brown; */
     border-radius: 10px;
+    position: relative;
     margin: 1.5rem;
-    flex-basis: 80%;
+    flex-basis: 100%;
+    display: flex;
     border: 1px solid rgba(197, 197, 197, 0.154);
 }
 
-
-#img1Text {
-    /* background-color: brown; */
-    flex-basis: 20%;
-        border-radius: 10px;
-    margin: 1.5rem;
-     border: 1px solid rgba(197, 197, 197, 0.154);
-         display: flex;
-    justify-content: space-evenly;
+#galleryHeadLink {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.75); /* Dim background */
+    border: 1px solid rgba(197, 197, 197, 0.154);
 }
+
+#galleryHeadLink h1{
+    color: white;
+        font-size: 3rem;
+    color: white;
+    font-family:sans-serif;
+    font-weight: 600;
+    margin: 0 0 .4rem 0;
+}
+
+#galleryHeadLink i{
+color: white;
+}
+
+#img1Container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     border-radius: 10px;
+     border: 1px solid rgba(197, 197, 197, 0.154);
+     
+}
+
+#galleryHeadLink:hover {
+    opacity: 1;
+}
+
+
+
 
 #img1Text i{
     color: white;
